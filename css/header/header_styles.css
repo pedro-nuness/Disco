@@ -1,0 +1,68 @@
+#header_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color: rgb(28, 28, 28);
+}
+
+#page_info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+#page_info_text{
+    color: white;
+    font-size: 3.5em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+#tabs_bar{
+    box-shadow: 0px 0px 20px rgb(105, 104, 104);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+    width: 45%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.button{
+
+    border: 0px ;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+
+
+}
+
+.button,textarea{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.button:hover{
+   animation: increase 2s ease alternate infinite;
+}
+

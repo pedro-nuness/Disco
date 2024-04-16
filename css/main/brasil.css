@@ -1,0 +1,26 @@
+
+#p_content_brasil_img_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    overflow: hidden;
+
+}
+
+#p_content_brasil_img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+#content_brasil{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#p_content_brasil{
+    width: 70%;
+}

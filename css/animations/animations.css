@@ -1,0 +1,77 @@
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes appear {
+    0% {opacity: 0%; }
+    100% { opacity: 100%;}
+}
+
+@keyframes increase {
+    0% {transform: scale(1); }
+    100% {transform: scale(1.1); }
+}
+
+
+@keyframes increase_height {
+    0% {height: 20vh; }
+    100% {height: 45vh; }
+}
+
+@keyframes decrease_height {
+    0% {height: 45vh; }
+    100% {height: 20vh; }
+}
+
+
+
+@keyframes grow_card{
+    from {
+        flex-grow: 0; /* Valor inicial de flex-grow */
+    }
+    to {
+        flex-grow: 5; /* Valor inicial de flex-grow */
+    }
+}
+
+@keyframes decrease_card{
+    from {
+        flex-grow: 5; /* Valor inicial de flex-grow */
+    }
+    to {
+        flex-grow: 0; /* Valor inicial de flex-grow */
+    }
+}
+
+@keyframes bright_up {
+    0% { opacity: 50%;}
+    100% { opacity: 100%;}
+}
+
+@keyframes bright_down {
+    0% { opacity: 100%;}
+    100% { opacity: 50%;}
+}
+
+@keyframes songs_appear{
+    0%{transform: translate(10%); opacity: 0%;}
+    100% {transform: translate(0%); opacity: 100%;}
+
+}
+
+@keyframes songs_disapper{
+    0%{transform: translate(0%); opacity: 100%;}
+    100% {transform: translate(10%); opacity: 0%;}
+
+}
+
+@keyframes show_info{
+    0% {opacity: 0%; transform: translate(0%, 10%);}
+    100% {opacity: 100%;transform: translate(0%, 0%);}
+}
+
+@keyframes hide_info{
+    0% {opacity: 100%;transform: translate(0%, 0%);}
+    100% {opacity: 0%;transform: translate(0%, 10%);}
+}
