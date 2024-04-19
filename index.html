@@ -11,16 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/animations/animations.css">
-    <link rel="stylesheet" href="css/header/header_styles.css">
-    <link rel="stylesheet" href="css/header/info_styles.css">
-    <link rel="stylesheet" href="css/main/main.css">
-    <link rel="stylesheet" href="css/main/brasil.css">
-    <link rel="stylesheet" href="css/main/artists.css">
-    <link rel="stylesheet" href="css/footer/footer.css">
-    
-    <title>Disco de vinil</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Home</title>
 </head>
 <body>
 
@@ -31,9 +24,9 @@
         </div>
         <div id="tabs_bar" >
             <div id="buttons">
-                <button class="button" id="homebutton">Home</button>
-                <button class="button" id="sobrebutton">Sobre</button>
-                <button class="button" id="outrosutton">Outros</button>
+                <a href="index.html"><button class="button" id="homebutton">Home</button></a>
+                <a href="about.html"><button class="button" id="sobrebutton">Sobre</button></a>
+                <a href="about.html"><button class="button" id="outrosutton">Outros</button></a>
             </div>
         </div>
 
@@ -47,28 +40,28 @@
         <!-- Seu conteúdo aqui -->
         <div class="song_cards">
            <div class="card_container">
-                <img class="card_img" src="img/jackson.webp" alt="" >
+                <img class="card_img" src="assets/img/jackson.webp" alt="" >
                 <div class="card_info" >
                     <span class="card_title" onclick="window.open('https://pt.wikipedia.org/wiki/Michael_Jackson', '_blank')" >Michael Jackson</span>
                 </div>
            </div>
 
            <div class="card_container">
-                <img class="card_img" src="img/eagles.webp" alt="">
+                <img class="card_img" src="assets/img/eagles.webp" alt="">
                 <div class="card_info" >
                     <span class="card_title" onclick="window.open('https://pt.wikipedia.org/wiki/Eagles', '_blank')" >Eagles</span>
                 </div>
            </div>
 
            <div class="card_container">
-                <img class="card_img" src="img/acdc.jpg" alt="">
+                <img class="card_img" src="assets/img/acdc.jpg" alt="">
                 <div class="card_info" >
                     <span class="card_title" onclick="window.open('https://pt.wikipedia.org/wiki/AC/DC', '_blank')" >AC/DC</span>
                 </div>
            </div>
 
            <div class="card_container">
-                <img class="card_img" src="img/led-zeppelin.webp" alt="">
+                <img class="card_img" src="assets/img/led-zeppelin.webp" alt="">
                 <div class="card_info" >
                     <span class="card_title" onclick="window.open('https://pt.wikipedia.org/wiki/Led_Zeppelin', '_blank')" >Led Zeppelin</span>
                 </div>
@@ -76,7 +69,7 @@
            </div>
 
            <div class="card_container">
-                <img class="card_img" src="img/beatles.jpg" alt="">
+                <img class="card_img" src="assets/img/beatles.jpg" alt="">
                 <div class="card_info" >
                     <span class="card_title" onclick="window.open('https://pt.wikipedia.org/wiki/The_Beatles', '_blank')" >The Beatles</span>
                 </div>
@@ -85,41 +78,41 @@
         </div>
 
         <div id="disco_div">
-            <img id="disco_img" onclick=OpenTab() src="img/disco.png" alt="">
+            <img id="disco_img" onclick=OpenTab() src="assets/img/disco.png" alt="">
         </div>
 
         
         <div class="song_cards">
             <div class="card_container">
-                <img class="card_img" src="img/billyjoel.jpeg" alt="">
+                <img class="card_img" src="assets/img/billyjoel.jpeg" alt="">
                 <div class="card_info" >
                     <span class="card_title" onclick="window.open('https://pt.wikipedia.org/wiki/Billy_Joel', '_blank')" >Billy Joel</span>
                 </div>
             </div>
  
             <div class="card_container">
-                <img class="card_img" src="img/pinkfloyd.jpg" alt="">
+                <img class="card_img" src="assets/img/pinkfloyd.jpg" alt="">
                 <div class="card_info" >
                     <span class="card_title" onclick="window.open('https://pt.wikipedia.org/wiki/Pink_Floyd', '_blank')" >Pink Floyd</span>
                 </div>
             </div>
  
             <div class="card_container">
-                <img class="card_img" src="img/garthbrooks.jpg" alt="">
+                <img class="card_img" src="assets/img/garthbrooks.jpg" alt="">
                 <div class="card_info" >
                     <span class="card_title" onclick="window.open('https://pt.wikipedia.org/wiki/Garth_Brooks', '_blank')" >Garth Brooks</span>
                 </div>
             </div>
  
             <div class="card_container">
-                <img class="card_img" src="img/hootie&blowfish.webp" alt="">
+                <img class="card_img" src="assets/img/hootie&blowfish.webp" alt="">
                 <div class="card_info" >
                     <span class="card_title" onclick="window.open('https://pt.wikipedia.org/wiki/Hootie_%26_the_Blowfish', '_blank')" >Hootie & Blowfish</span>
                 </div>
             </div>
  
             <div class="card_container">
-                <img class="card_img" src="img/guns-n-roses.webp" alt="">
+                <img class="card_img" src="assets/img/guns-n-roses.webp" alt="">
                 <div class="card_info" >
                     <span class="card_title" onclick="window.open('https://pt.wikipedia.org/wiki/Guns_N%27_Roses', '_blank')" >Guns N' Roses</span>
                 </div>
@@ -145,15 +138,67 @@
     </div>
 
 
-    <div>
-        <img id="disco1_img" src="img/_disco1.jpg" alt="">
+    <section>
+      <div class="page_content" id="how_section">
+        <h1>Voce já se perguntou como funciona os discos de vinil?</h1>
+
+        <h2>Parece até mágica, mas é bem simples!</h2>
+
+        <div class="content">
+          <div class="p_content_img_div">
+              <img class="p_content_img"src="assets/img/thomas-edison.jpg" alt="">
+          </div>
+          <div class="page_content" id="p_content_brasil">
+              <h1>Thomas Edison e a sua ideia revolucionária</h1>
+
+              <p>Em 1877, o inventor norte-americano Thomas Edison, compreendendo que o som é a vibração de partículas que se propaga através de um meio – como em ondas pelo ar – desenvolveu uma técnica para que essas ondas pudessem ser gravadas. Assim surgiu o fonógrafo, o primeiro aparelho a utilizar uma agulha e um amplificador para reproduzir o som. O disco de vinil nasceu anos depois, na década de 1940, utilizar uma agulha e um amplificador para reproduzir o som. O disco de vinil nasceu anos depois, na década de 1940, utilizando quase a mesma técnica do seu antecessor. </p>
+
+          </div>
+        </div>
+      
+        <h2>Ok, mas como os discos funcionam?</h2>
+
+        <div class="content">
+         
+          <div class="page_content" id="p_content_brasil">
+              <h1>Discos funcionam porque possuem sulcos</h1>
+
+              <p>Nada mais do que ondas sonoras impressas em uma superfície plana. Imagine a impressão digital de uma música registrada em um vinil. É isso. São essas ranhuras codificadas que determinam o comportamento das ondas sonoras ao se moverem pelo ar. E é aí que entra (literalmente) a agulha, com sua ponta afiada. Imagem: Reprodução Produzida com material ultraresistente, como diamante ou safira, a extremidade da agulha é conectada a uma barrinha de metal (cantilever) acoplada a uma cápsula, que funciona como o cérebro do toca-discos. É a cápsula que transforma energia física em sinal elétrico, por meio de um sistema interno de imãs ou bobinas, a depender do modelo. Durante a execução de um disco de vinil, a agulha se movimenta milimetricamente entre as paredes dos sulcos, e essa vibração é transmitida para a cápsula. À medida que o cantilever pressiona a ponta da agulha cada vez que ela se move, um campo eletromagnético é criado, e o sinal é enviado desde o braço do toca-disco até o amplificador.</p>
+
+          </div>
+          <div class="p_content_img_div">
+            <img class="p_content_img"src="assets/img/disco_zoom.jpg" alt="">
+        </div>
+        </div>
+
+        <div class="content">
+         
+          <div class="p_content_img_div" id="record_vinil">
+            <div id="about_record_div">
+              O disco de alumínio é banhado com prata e níquel, formando uma camada metálica que é separada do disco original. Essa camada é o máster metálico, um molde para produzir os discos de vinil em escala industrial. 
+          </div>
+            <img id="record_vinil_img"src="assets/img/record_vinil.jpg" alt="">
+
+            <div id="about_record_div">
+              Ele é encaixado em máquinas que aplicam uma força de 100 toneladas sobre “biscoitos” de PVC derretido, gravando os vinis. Cada disco leva menos de 30 segundos para ser feito 
+
+          </div>
+
+        </div>
+        </div>
+        
+      </div>
+  </section>
+
+    <div id="disco_img_center">
+        <img id="disco1_img" src="assets/img/_disco1.jpg" alt="">
     </div>
 
     
     <div class="div_content">
-        <div  id="content_brasil">
-            <div id="p_content_brasil_img_div">
-                <img id="p_content_brasil_img"src="img/red_disc.webp" alt="">
+        <div class="content">
+            <div class="p_content_img_div">
+                <img class="p_content_img"src="assets/img/red_disc.webp" alt="">
             </div>
             <div class="page_content" id="p_content_brasil">
                 <h1>O Disco de Vinil no Brasil</h1>
@@ -168,11 +213,159 @@
         </div>
     </div>
 
+
+    <div class="div_content">
+        <div class="content">
+            <div class="page_content" id="p_content_artists">
+                <h1>Os 10 discos de vinil mais vendidos da década</h1>
+
+                <table>
+                    <tr>
+                      <th>Posição</th>
+                      <th>Artista</th>
+                      <th>Álbum</th>
+                      <th>Vendas (em milhões)</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>The Beatles</td>
+                      <td>Abbey Road</td>
+                      <td>0.558</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Pink Floyd</td>
+                      <td>Dark Side of the Moon</td>
+                      <td>0.376</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Vários Artistas</td>
+                      <td>Trilha Sonora de Guardiões da Galáxia</td>
+                      <td>0.367</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Bob Marley & the Wailers</td>
+                      <td>Legend</td>
+                      <td>0.364</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Amy Winehouse</td>
+                      <td>Back to Black</td>
+                      <td>0.351</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Michael Jackson</td>
+                      <td>Thriller</td>
+                      <td>0.334</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>The Beatles</td>
+                      <td>Sgt. Pepper’s Lonely Hearts Club Band</td>
+                      <td>0.313</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>Fleetwood Mac</td>
+                      <td>Rumours</td>
+                      <td>0.304</td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>Miles Davis</td>
+                      <td>Kind of Blue</td>
+                      <td>0.286</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>Lana Del Rey</td>
+                      <td>Born to Die</td>
+                      <td>0.283</td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="p_content_img_div">
+                <img class="p_content_img"src="assets/img/most_sold.webp" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="div_content">
+        <div class="content">
+            <div class="p_content_img_div">
+                <img class="p_content_img"src="assets/img/2pac.jpg" alt="">
+            </div>
+            <div class="page_content" id="p_content_artists">
+                <h1>10 discos marcantes para ter na coleção</h1>
+
+                <table>
+                    <tr>
+                      <th>Década</th>
+                      <th>Álbum</th>
+                      <th>Artista</th>
+                    </tr>
+                    <tr>
+                      <td rowspan="3">90</td>
+                      <td>Nevermind</td>
+                      <td>Nirvana</td>
+                    </tr>
+                    <tr>           
+                      <td>Ok Computer</td>
+                      <td>Radiohead</td>
+                    </tr>
+                    <tr>                  
+                        <td>No More Tears</td>
+                        <td>Ozzy Osbourne</td>
+                    </tr>
+                    <tr>
+                    <td rowspan="3">80</td>
+                      <td>Bad</td>
+                      <td>Michael Jackson</td>
+                    </tr>
+                    <tr>
+                      <td>Bad Reputation</td>
+                      <td>Joan Jett & The Blackhearts</td>
+                    </tr>
+                    <tr>
+                      <td>True Blue</td>
+                      <td>Madonna</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">70</td>
+                      <td>Led Zeppelin IV</td>
+                      <td>Led Zeppelin</td>
+                    </tr>
+                    <tr>
+                      <td>The Dark Side Of The Moon</td>
+                      <td>Pink Floyd</td>
+                    </tr>
+                    <tr>
+                      <td>Blondie</td>
+                      <td>Blondie</td>
+                    </tr>
+                    <tr>
+                    
+                    </tr>
+                  </table>
+            </div>
+           
+        </div>
+    </div>
+
   
 
 
    <div class="footer">
-
+       
+        <div id="footer_text">
+            <p>© 2024 Todos os direitos reservados.</p>
+            <p>Desenvolvido por Pedro Oliveira</p>
+        </div>
    </div>
 
     
@@ -182,6 +375,6 @@
     
 
 
-    <script src="js/info.js"></script>
+    <script src="assets/js/info.js"></script>
 </body>
 </html>
