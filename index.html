@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="assets/img/vinil.ico">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -24,9 +27,9 @@
         </div>
         <div id="tabs_bar" >
             <div id="buttons">
-                <a href="index.html"><button class="button" id="homebutton">Home</button></a>
-                <a href="about.html"><button class="button" id="sobrebutton">Sobre</button></a>
-                <a href="about.html"><button class="button" id="outrosutton">Outros</button></a>
+              <a href="index.html"><button class="button" id="homebutton">Home</button></a>              
+              <a href="others.html"><button class="button" id="outrosutton">Outros</button></a>
+              <a href="about.html"><button class="button" id="sobrebutton">Sobre</button></a>
             </div>
         </div>
 
@@ -360,13 +363,32 @@
   
 
 
-   <div class="footer">
-       
-        <div id="footer_text">
-            <p>© 2024 Todos os direitos reservados.</p>
-            <p>Desenvolvido por Pedro Oliveira</p>
-        </div>
-   </div>
+    <div class="footer">
+
+      <div id="social_media_section">
+  
+          <div class="social_media_button" onclick="window.open('https://www.instagram.com/yet.nunes/', '_blank')">
+                  <div class="social_media_button_icon_div">
+                      <img class="social_media_button_icon"src="assets/img/Instagram_icon.png.webp" alt="">
+                  </div>
+                  <div class="social_media_button_name" id="instagram">Instagram</div>
+              </div>   
+              
+              <div class="social_media_button" onclick="window.open('https://github.com/pedro-nuness', '_blank')">
+                  <div class="social_media_button_icon_div">
+                      <img class="social_media_button_icon"src="assets/img/github_logo.png" alt="">
+                  </div>
+                  <div class="social_media_button_name" id="github" onclick="">Github</div>
+              </div>    
+              
+      </div>
+  
+          <div id="footer_text">
+              <p>© 2024 Todos os direitos reservados.</p>
+              <p>Desenvolvido por Pedro Oliveira</p>
+          </div>
+     </div>
+  
 
     
 

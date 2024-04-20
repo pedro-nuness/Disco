@@ -1,18 +1,105 @@
 .footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 30vh;
     background-color: rgb(28, 28, 28);
 }
 
+#footer_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 200;
+    width: 30%;
+}
+
+#footer_text,textarea{
+    text-align: center;
+}
+
+
 .footer, textarea{
     font-family: "Montserrat", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: white
 }
 
 #ucb_logo{
     width: 100%;
 }
+
+#social_media_section{
+    height: 50%;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.social_media_button{
+    margin: 1%;
+    height: 25%;
+    width: 26%;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: 1s ease;
+}
+
+.social_media_button:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.social_media_button_icon_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100%;
+    width: 30%;
+}
+
+
+.social_media_button_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90%;
+    height: 100%;
+    font-size: 50%;
+    font-weight: 300;
+}
+
+#instagram,textarea{
+    color: #C13584;
+}
+
+
+#github,textarea{
+    color: black;
+}
+
+
+.social_media_button_icon{
+    
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
